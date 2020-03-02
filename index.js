@@ -71,7 +71,42 @@ console.log(person.name);
 // Usage of Array objects 
 
 let selectedColors = ['red', 'blue',];
+
 console.log(selectedColors);
+// example proof of JS being a dynamic language. We access the array element at index 1 and change it's value to anotheritem.
+selectedColors[0]= 'Black';
+
+//Another proof that JS is dynamic. Will store any kind of object unlike Java or other strong programming langugates.
+selectedColors[2] = 1;
+
+// Example and use of the lenght property
+console.log('the length of this array is ' +  selectedColors.length); // displays the length of the selectedColors array.
+
+/*functions are one of the building blocks in JS. It is basically a set of statements that performs a task or calculate a value. */
+//A simple function that prints hello world to the console and gets invoved oustide of the curly braces.
+
+    function greet(){
+        console.log('Hello World');
+    }
+    // function is called outside of the curly braces.
+     greet();
+
+    //Another example of funcation that takes a name parameter and greets the user
+
+    function    greetMe(name){
+        console.log('Hello' + name + "I hope you are having a good day with these programming basics!")
+    }
+
+    //function call
+    greetMe('John');
+
+    /* The default value for a java script param is undefined. below is another example of a function overload that has three paramatres with only 1 argument in the final func call */
+
+    function greetMe(firstName, lastName, nickName){
+        console.log("Hello" + firstName + " " + lastName + "Can" + nickName + " " + "as your nick name? ")
+    }
+    //function call
+greetMe("Manny");
 
 // access the first element in an array
-console.log(' the first element in my array is: ' + selectedColors[0]);
+console.log(selectedColors);
