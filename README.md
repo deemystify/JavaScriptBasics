@@ -9,4 +9,4 @@ A simple Java Script file that includes subsets of all basic Javascript commands
  *                  
  * Name:                Lloyd Harris
  * Date:                 02/28/2020
- * Ver:                 2020.1
+ * Ver:                 2020.11
