@@ -108,5 +108,19 @@ console.log('the length of this array is ' +  selectedColors.length); // display
     //function call
 greetMe("Manny");
 
+    //Here is an example of a function that calculates a value
+
+    function computeAverage(num1, num2, num3, num4, num5){
+        var counter;
+
+        var sum = num1 + num2 + num3 + num4 + num5;
+        return sum / 5;
+    }
+
+    // call func computeAverage
+    let  result = computeAverage(5, 5, 5, 5, 5 );
+    console.log('The average is ' + result);
+
+
 // access the first element in an array
 console.log(selectedColors);
